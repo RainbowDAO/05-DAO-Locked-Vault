@@ -1,5 +1,3 @@
-# Submission for the ETHDenver 2022 Virtual BUIDLathon
-
 ## 1.Project name
 
 DAO Locked Vault System
@@ -14,25 +12,23 @@ RainbowCity Foundation
 
 ## 4.Submission links
 
-In this ETHDenver 2022 Virtual BUIDLathon event, RainbowCity Foundation submitted a total of 9 projects, which is the  address directory of the 9 projects. We are continuing to refine the details of each project.
-
 Submission address directory:
-http://www.rainbowdao.io/ETHDanver2022
+http://www.rainbowdao.io/project
 
 Project demo website:
-https://vaultethdanver.rainbowdao.io/
+https://vault.rainbowdao.io/
 
 GitHub repository :
-https://github.com/RainbowDAO/06-ETHDenver2022-DAO-Locked-Vault
+https://github.com/RainbowDAO/06-DAO-Locked-Vault
 
 Solidity-Version-contract (GitHub):
-https://github.com/RainbowDAO/06-ETHDenver2022-DAO-Locked-Vault/tree/main/Solidity-contract
+https://github.com/RainbowDAO/06-DAO-Locked-Vault/tree/main/Solidity-contract
 
 Frontend code (GitHub):
-https://github.com/RainbowDAO/06-ETHDenver2022-DAO-Locked-Vault/tree/main/Front-end
+https://github.com/RainbowDAO/06-DAO-Locked-Vault/tree/main/Front-end
 
 Picture (GitHub):
-https://github.com/RainbowDAO/06-ETHDenver2022-DAO-Locked-Vault/tree/main/PIC
+https://github.com/RainbowDAO/06-DAO-Locked-Vault/tree/main/PIC
 
 ## 5.Recorded video demo
 
@@ -52,10 +48,10 @@ RBD:
 0x798Bb825666bD32A106f6f6bF1995059d4749858
 
 Frontend docs:
-https://github.com/RainbowDAO/06-ETHDenver2022-DAO-Locked-Vault/blob/main/Front-end/README.md
+https://github.com/RainbowDAO/06-DAO-Locked-Vault/blob/main/Front-end/README.md
 
 Contract  docs:
-https://github.com/RainbowDAO/06-ETHDenver2022-DAO-Locked-Vault/blob/main/Solidity-contract/README.md
+https://github.com/RainbowDAO/06-DAO-Locked-Vault/blob/main/Solidity-contract/README.md
 
 ## 7.Project social media:
 
@@ -91,7 +87,7 @@ The second point is the token incentives that can be used for community members 
 
 ## 3.How we built it
 
-![image](https://raw.githubusercontent.com/RainbowDAO/06-ETHDenver2022-DAO-Locked-Vault/main/PIC/logic-diagram.png)
+![image](https://raw.githubusercontent.com/RainbowDAO/06-DAO-Locked-Vault/main/PIC/logic-diagram.png)
 
 Operation steps of the DAO lock-up vault system function:
 
@@ -126,45 +122,45 @@ The depositor or the authorized receiving address will receive the corresponding
 
 ##  1-Locked-Vault-System-1
 
-![image](https://raw.githubusercontent.com/RainbowDAO/06-ETHDenver2022-DAO-Locked-Vault/main/PIC/1-Locked-Vault-System-1.png)
+![image](https://raw.githubusercontent.com/RainbowDAO/06-DAO-Locked-Vault/main/PIC/1-Locked-Vault-System-1.png)
 
 ##  2-Locked-Vault-System-2
 
-![image](https://raw.githubusercontent.com/RainbowDAO/06-ETHDenver2022-DAO-Locked-Vault/main/PIC/2-Locked-Vault-System-2.png)
+![image](https://raw.githubusercontent.com/RainbowDAO/06-DAO-Locked-Vault/main/PIC/2-Locked-Vault-System-2.png)
 
 
 ##  3-Locked-Vault-System-3
 
 
-![image](https://raw.githubusercontent.com/RainbowDAO/06-ETHDenver2022-DAO-Locked-Vault/main/PIC/3-Locked-Vault-System-3.png)
+![image](https://raw.githubusercontent.com/RainbowDAO/06-DAO-Locked-Vault/main/PIC/3-Locked-Vault-System-3.png)
 
 
 ##  4-Deposit
 
 
 
-![image](https://raw.githubusercontent.com/RainbowDAO/06-ETHDenver2022-DAO-Locked-Vault/main/PIC/4-Deposit.png)
+![image](https://raw.githubusercontent.com/RainbowDAO/06-DAO-Locked-Vault/main/PIC/4-Deposit.png)
 
 
 ##  5-Home
 
 
-![image](https://raw.githubusercontent.com/RainbowDAO/06-ETHDenver2022-DAO-Locked-Vault/main/PIC/5-Home.png)
+![image](https://raw.githubusercontent.com/RainbowDAO/06-DAO-Locked-Vault/main/PIC/5-Home.png)
 
 
 ##  6-Info
 
 
-![image](https://raw.githubusercontent.com/RainbowDAO/06-ETHDenver2022-DAO-Locked-Vault/main/PIC/6-Info.png)
+![image](https://raw.githubusercontent.com/RainbowDAO/06-DAO-Locked-Vault/main/PIC/6-Info.png)
 
 
 ##  7-Info-Withdraw
 
 
-![image](https://raw.githubusercontent.com/RainbowDAO/06-ETHDenver2022-DAO-Locked-Vault/main/PIC/7-Info-Withdraw.png)
+![image](https://raw.githubusercontent.com/RainbowDAO/06-DAO-Locked-Vault/main/PIC/7-Info-Withdraw.png)
 
 
 ##  8-Manager
 
 
-![image](https://raw.githubusercontent.com/RainbowDAO/06-ETHDenver2022-DAO-Locked-Vault/main/PIC/8-Manager.png)
+![image](https://raw.githubusercontent.com/RainbowDAO/06-DAO-Locked-Vault/main/PIC/8-Manager.png)
