@@ -36,6 +36,22 @@ https://youtu.be/zSGWTrzNWfE
 
 ## 6.Testnet Deployment Information
 
+#### 1.BNB Test
+
+Network Name: Rinkeby Test Network
+RPC URL: https://rinkeby.infura.io/v3/
+
+Contract deployment address
+
+valut:
+0xd0eA8A623dE4F2565F93d30227Ceb0572068d38C
+
+RBD:
+0x798Bb825666bD32A106f6f6bF1995059d4749858
+
+
+#### 2.Rinkeby Test
+
 Network Name: Rinkeby Test Network
 RPC URL: https://rinkeby.infura.io/v3/
 
