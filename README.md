@@ -16,7 +16,7 @@ Submission address directory:
 http://www.rainbowdao.io/project
 
 Project demo website:
-https://vault.rainbowdao.io/
+https://vault.rainbowdao.io/#/
 
 GitHub repository :
 https://github.com/RainbowDAO/05-DAO-Locked-Vault
