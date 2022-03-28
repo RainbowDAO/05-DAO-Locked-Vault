@@ -1,5 +1,5 @@
-Solidity-contract
-## ##Dependencies##
+# Solidity-contract
+## Dependencies
 
 - Linux , Mac or Windows
 
