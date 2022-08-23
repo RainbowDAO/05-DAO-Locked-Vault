@@ -1,7 +1,5 @@
 pragma solidity ^0.8.0;
 import '../interface/IERC20.sol';
-//import '../TransferHelper.sol';
-
 contract valut {
     address public owner;
     string public name;
