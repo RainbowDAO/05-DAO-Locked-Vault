@@ -1,23 +1,23 @@
 pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-
-contract RBD is ERC20{
-    address public admin;
+import "@openzeppelin/contracts/access/Ownable.sol";
+contract RBD is ERC20,Ownable{
+    address public mintAddr;
     event AdminChange(address indexed Admin, address indexed newAdmin);
-    constructor(address manager) public ERC20("RBD", "RBD") {
-        admin = manager;
-        _mint(manager, 10_000_000_000 *10 ** 18);
+    constructor() ERC20("RBD", "RBD") {
+        
+        _mint(msg.sender, 10_000_000_000 *10 ** 18);
     }
-    modifier  _isOwner() {
-        require(msg.sender == admin);
-        _;
+    function setMintAddress(address _mintAddr) public onlyOwner{
+    mintAddr = _mintAddr;
     }
-    function changeOwner(address manager) external _isOwner {
-        admin = manager;
-        emit AdminChange(msg.sender,manager);
+    function mint(address account, uint256 amount ) external {
+        require(msg.sender == mintAddr,'u are not mint address');
+        _mint(account, amount);
     }
-    function burn(address account, uint256 amount) external _isOwner{
+    function burn(address account, uint256 amount) external {
+        require(msg.sender == mintAddr,'u are not burn address');
         _burn(account, amount);
     }
 }
