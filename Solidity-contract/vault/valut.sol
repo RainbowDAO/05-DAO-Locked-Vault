@@ -1,6 +1,8 @@
 pragma solidity ^0.8.0;
 import '../interface/IERC20.sol';
 contract valut {
+
+
     address public owner;
     string public name;
     string public intro;
@@ -88,7 +90,6 @@ contract valut {
     }
 
     function withdraw(address rbd,address to ,uint amount,uint number)public{
-         
         index1=index1+1;
          if (msg.sender==to){
             uint32 blockTime = uint32(block.timestamp % 2 ** 32);
