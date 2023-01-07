@@ -9,11 +9,16 @@ contract VaultFactory is Ownable{
     mapping(address => address) public currentLockAddress;
     address[] public lockList;
     mapping(address => address[]) public ownerLock; 
+    bool public status;
     constructor(){
     }
     //onlyOwner
+    function setStatus() public onlyOwner{
+        !status;
+        }
     //main
     function createLock() public { 
+        require(!status,"the contract status is error");
         currentLock = address(new FireLock());
         ownerLock[msg.sender].push(currentLock);
         currentLockAddress[msg.sender] = currentLock;
